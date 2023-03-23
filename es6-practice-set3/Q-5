@@ -1,0 +1,8 @@
+// Write a function that uses destructuring to extract the first two elements from an array, 
+             //and returns them in an object with keys 'first' and 'second'.
+
+const startsWithA = (str) => (str.charAt(0) === 'A') ? true : false
+
+console.log(startsWithA("Akshita"))
+// true
+console.log(startsWithA("Jeena")) //false
