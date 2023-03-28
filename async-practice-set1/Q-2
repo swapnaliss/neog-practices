@@ -1,0 +1,13 @@
+//Write a function ‘delayedAddition’ that takes in two numbers and consoles their sum after 
+// a delay of 4 seconds using setTimeout.
+
+
+const delayedAddition = (num1, num2) => 
+{
+  setTimeout(() => {
+    const result = num1 + num2 ;
+    console.log(result);
+  }, 4000);
+}
+delayedAddition(2, 3); 
+// 5
